@@ -1082,7 +1082,7 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
@@ -5008,16 +5008,17 @@ a.badge:focus {
   padding-bottom: 30px;
   margin-bottom: 30px;
   color: inherit;
-  background-color: #eee;
+  background-color: rgba(245, 245, 245, 0.7);
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: inherit;
+  color: black;
 }
 .jumbotron p {
   margin-bottom: 15px;
   font-size: 21px;
   font-weight: 200;
+  color: black;
 }
 .jumbotron > hr {
   border-top-color: #d5d5d5;
