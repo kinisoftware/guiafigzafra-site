@@ -27,7 +27,6 @@
   <body>
 
     <div class="navbar-wrapper">
-      <div class="container">
 
         <nav class="navbar navbar-inverse navbar-static-top">
           <div class="container">
@@ -42,16 +41,25 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li><a href="#">Anuncios</a></li>
-                <li><a href="#contact">Programa de la FIG</a></li>
-                <li><a href="#contact">Mapa</a></li>
-                <li><a href="#contact">Expositores</a></li>
+                <li class="active"><a href="#">Anuncios</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Programa de la Feria <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="agenda.html#jueves">Jueves, 1 de Octubre</a></li>
+                    <li><a href="agenda.html#viernes">Viernes, 2 de Octubre</a></li>
+                    <li><a href="agenda.html#sabado">Sábado, 3 de Octubre</a></li>
+                    <li><a href="agenda.html#domingo">Domingo, 4 de Octubre</a></li>
+                    <li><a href="agenda.html#lunes">Lunes, 5 de Octubre</a></li>
+                    <li><a href="agenda.html#martes">Martes, 6 de Octubre</a></li>
+                    <li><a href="agenda.html#miercoles">Miércoles, 7 de Octubre</a></li>
+                  </ul>
+                </li>
+                <li><a href="map.html">Mapa</a></li>
               </ul>
             </div>
           </div>
         </nav>
 
-      </div>
     </div>
 
     <div class=container>
@@ -61,34 +69,66 @@
         <th>Contacto</th>
       </thead>
       <tbody>
-        <tr>
-          <td>Zafra Salud</td>
-          <td>
-            <a class="glyphicon glyphicon-map-marker" href="http://maps.google.com/?q=Zafra Salud S. Privado" />
-            <a class="glyphicon glyphicon-earphone" href="tel:924552755" />
-          </td>
-        </tr>
-        <tr>
-          <td>Electricidad Hnos. Zama</td>
-          <td>
-            <a class="glyphicon glyphicon-map-marker" href="http://maps.google.com/?q=Electricidad Hnos. Zama" />
-            <a class="glyphicon glyphicon-earphone" href="tel:924556041" />
-          </td>
-        </tr>
-        <tr>
-          <td>Mudanzas Boraita</td>
-          <td>
-            <a class="glyphicon glyphicon-map-marker" href="http://maps.google.com/?q=Mudanzas Boraita" />
-            <a class="glyphicon glyphicon-earphone" href="tel:924552980" />
-          </td>
-        </tr>
-        <tr>
-          <td>Friko Zafra S.L.</td>
-          <td>
-            <a class="glyphicon glyphicon-map-marker" href="http://maps.google.com/?q=Friko Zafra" />
-            <a class="glyphicon glyphicon-earphone" href="tel:924552206" />
-          </td>
-        </tr>
+        <tr><td>Adiutum</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Plaza Regimiento de Infantería Castilla 16'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:924550041'/></li></ul></td></tr>
+<tr><td>Almazara Ecológica de Encinasola Oleosierra</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Calle Oliva, 3, 21390 Encinasola'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:959714370'/></li><li><a class='glyphicon glyphicon-globe' href='http:// www.oleosierra.com'/></li></ul></td></tr>
+<tr><td>Antonio Domínguez Mancera</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Patronato Santa Brígida, 3 2º A'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:620938474'/></li></ul></td></tr>
+<tr><td>Antonio Fernández Fuentes, Construcciones en General</td><td><a class='glyphicon glyphicon-earphone' href='tel:616381166'/></td></tr>
+<tr><td>Asesoría Garlán</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q= Avda. de los Cameranos, 13 Zafra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:924551299'/></li></ul></td></tr>
+<tr><td>ATESE</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q= Plaza Regimiento Castilla XVI, 6, Zafra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:630951348'/></li></ul></td></tr>
+<tr><td>Balneario El Raposo</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Balneario El Raposo'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:924570453'/></li></ul></td></tr>
+<tr><td>Banca Pueyo</td><td><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=C/ Antonio Chacón, 9 Zafra'/></td></tr>
+<tr><td>Bar El Convento</td><td><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=C/. Gobernador, 16 Zafra'/></td></tr>
+<tr><td>Bar Venegas</td><td><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Plaza Grande, 18 Zafra'/></td></tr>
+<tr><td>Bodega Bar Taxi</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=C/. Cestería, 1 Zafra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:625531735'/></li></ul></td></tr>
+<tr><td>Carpintería Metálica David Zambrano Hernández</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Calle Enmedio, 14, 06394 Bodonal de la Sierra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:653776733'/></li><li><a class='glyphicon glyphicon-envelope' href='mailto:cmdavidzh@hotmail.com'/></li></ul></td></tr>
+<tr><td>Centro de Estética Conchi</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=C/. Central, 6 Zafra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:687826008'/></li></ul></td></tr>
+<tr><td>Centro del Rótulo</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Centro del Rótulo, Zafra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:924552218'/></li></ul></td></tr>
+<tr><td>Centro Integral de Psicología ‘Cambio’</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Centro Integral de Psicología ‘Cambio’'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:652065150'/></li></ul></td></tr>
+<tr><td>CEPSA GAS</td><td><a class='glyphicon glyphicon-earphone' href='tel:628131438'/></td></tr>
+<tr><td>Cervecería El Montero</td><td><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Plaza Grande, 16b, Zafra'/></td></tr>
+<tr><td>Clinica Dental Dr. Samuel Cumplido Santiago</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Clinica Dental Dr. Samuel Cumplido Santiago'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:924550938'/></li></ul></td></tr>
+<tr><td>Daversound</td><td><a class='glyphicon glyphicon-earphone' href='tel:627260595'/></td></tr>
+<tr><td>Decoksa</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Decoksa'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:924554830'/></li></ul></td></tr>
+<tr><td>Desatascos Hidrodes Ibérica</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Desatascos Hidrodes Ibérica'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:692654679'/></li></ul></td></tr>
+<tr><td>Doña Camiseta</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Doña Camiseta'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:924551210'/></li></ul></td></tr>
+<tr><td>Electricidad Hnos. Zama</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Electricidad Hnos. Zama'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:924556041'/></li></ul></td></tr>
+<tr><td>Electromecánica Vázquez, S.L.</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Electromecánica Vázquez, S.L.'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:924554039'/></li></ul></td></tr>
+<tr><td>Escoda&Gisbert, s.l.</td><td><a class='glyphicon glyphicon-globe' href='http:// www.escodaygisbert.com'/></td></tr>
+<tr><td>Estudio de Flamenco y Danza “Los Jaleos”</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q= C/ Santa Catalina, 15b, Zafra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:699825252'/></li><li><a class='glyphicon glyphicon-envelope' href='mailto:losjaleoszafra@hotmail.com'/></li></ul></td></tr>
+<tr><td>Etico Ingeniería</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Etico Ingeniería'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:636902180'/></li><li><a class='glyphicon glyphicon-globe' href='http://www.eticoingenieria.es'/></li><li><a class='glyphicon glyphicon-envelope' href='mailto:eticoingenieria@eticoingenieria.es'/></li></ul></td></tr>
+<tr><td>Federópticos Lola Tinoco</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Federópticos Lola Tinoco'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:924554128'/></li></ul></td></tr>
+<tr><td>Fisio y Osteopatía María Jesús López</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q= C/ Hnos. Álvarez Guerra, Zafra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:685439185'/></li></ul></td></tr>
+<tr><td>Floristería Doana</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q= C/ Antonio Chacón, 7, Zafra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:924550734'/></li></ul></td></tr>
+<tr><td>Fontanería Payos</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q= Avda. de la Estación, 20 bajo, Zafra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:637430224'/></li></ul></td></tr>
+<tr><td>Friko Zafra S.L.</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Friko Zafra S.L.'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:924552206'/></li></ul></td></tr>
+<tr><td>Frutos Secos y Golosinas “El Pajarito”</td><td><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Plaza Grande 18b, Zafra'/></td></tr>
+<tr><td>Generali Seguros</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Avenida Duques de Feria, 6, Zafra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:666584508'/></li></ul></td></tr>
+<tr><td>Gloria Montaño: Fotografía & Diseño</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q= Plaza España, 15, Zafra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:610717227'/></li></ul></td></tr>
+<tr><td>Hotel – Restaurante Plaza Grande</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Hotel – Restaurante Plaza Grande, Zafra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:924563163'/></li></ul></td></tr>
+<tr><td>Imprenta Rayego</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Imprenta Rayego S.L., Zafra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:924550089'/></li></ul></td></tr>
+<tr><td>Instituto Kiros Zafra</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Instituto Kiros Zafra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:924550647'/></li></ul></td></tr>
+<tr><td>Iván Gestiona Servicios Inmobiliarios</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Iván Gestiona Servicios Inmobiliarios'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:642480169'/></li><li><a class='glyphicon glyphicon-globe' href='http://www.ivangestiona.es'/></li></ul></td></tr>
+<tr><td>Jose Antonio Rivera Pérez, Agente Comercial de Ganado y Fincas</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q= C/ Javier Delgado, 28, Fregenal de la Sierra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:676052015'/></li></ul></td></tr>
+<tr><td>Joyería Navarro</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Joyería Navarro, Zafra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:924551577'/></li></ul></td></tr>
+<tr><td>L’Artesa</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=L’Artesa, Zafra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:628563145'/></li></ul></td></tr>
+<tr><td>La Andaluza Low Cost</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Plaza Grande, 16, Zafra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:657783301'/></li></ul></td></tr>
+<tr><td>La Casabar Restaurante</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=La Casabar Restaurante, Zafra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:924553972'/></li></ul></td></tr>
+<tr><td>La Fábrica de Chocolate</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Avda. de la Estación, 6, Zafra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:924551695'/></li></ul></td></tr>
+<tr><td>Le Suite</td><td><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Plaza Grande, 10, Zafra'/></td></tr>
+<tr><td>Madre Selva</td><td><a class='glyphicon glyphicon-globe' href='http://http://www.revistamadreselva.com/'/></td></tr>
+<tr><td>Marta Navarro</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Marta Navarro, Zafra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:924553428'/></li></ul></td></tr>
+<tr><td>Mi&Bar</td><td><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Plaza Grande, Zafra'/></td></tr>
+<tr><td>Mudanzas Boraita</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Mudanzas Boraita, Zafra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:670427484'/></li></ul></td></tr>
+<tr><td>Pinturas y Decoraciones David</td><td><a class='glyphicon glyphicon-earphone' href='tel:606186446'/></td></tr>
+<tr><td>Progreso Quercus</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=C/ Llano Santa Ana, 17, Fregenal de la sierra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:680334986'/></li><li><a class='glyphicon glyphicon-globe' href='http://www.progresoquercus.com'/></li><li><a class='glyphicon glyphicon-envelope' href='mailto:tecnico@progresoquercus.com'/></li></ul></td></tr>
+<tr><td>Sala de Actividades Rachel</td><td><a class='glyphicon glyphicon-earphone' href='tel:659197979'/></td></tr>
+<tr><td>Sevilla La Chica</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Sevilla La Chica, Zafra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:648139834'/></li></ul></td></tr>
+<tr><td>Talleres V8</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Talleres V8, Zafra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:660038003'/></li></ul></td></tr>
+<tr><td>Telecoluz</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Avda. de la Estación, nº 28, Zafra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:696496775'/></li></ul></td></tr>
+<tr><td>Tosfrit</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Pol. Ind. Los Caños, C/. Bodión, 100, Zafra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:924550352'/></li></ul></td></tr>
+<tr><td>Unióptica Opticalia</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Unióptica Opticalia, Zafra'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:924550090'/></li></ul></td></tr>
+<tr><td>La Guía de Zafra</td><td><a class='glyphicon glyphicon-globe' href='http://www.laguiadezafra.com'/></td></tr>
+<tr><td>Zafra Salud</td><td><ul class='list-inline'><li><a class='glyphicon glyphicon-map-marker' href='http://maps.google.com/?q=Zafra Salud S. Privado'/></li><li><a class='glyphicon glyphicon-earphone' href='tel:924552755'/></li></ul></td></tr>
       </tbody>
     </table>
 
@@ -105,6 +145,6 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
   </body>
 </html>
